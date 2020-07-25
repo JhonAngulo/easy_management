@@ -1,0 +1,50 @@
+.header {
+  background-color: $primary-color;
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+
+  &__logo {
+    margin: auto 0;
+    margin-left: 10px;
+    color: $white-color;
+    font-size: map-get($fs, big);
+    font-weight: 700;
+    letter-spacing: 1.2px;
+  }
+
+  &__items {
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: $white-color;
+    list-style: none;
+  }
+
+  &__item {
+    margin: auto;
+    font-family: $font_1;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+  }
+
+  &__link {
+    padding: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $white-color;
+
+    &:hover {
+      background-color: $secundary-color;
+    }
+
+    &.selected {
+      background-color: rgba($color: black, $alpha: 0.3);
+    }
+  }
+
+}

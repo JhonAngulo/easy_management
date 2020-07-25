@@ -1,0 +1,26 @@
+.main-layout {
+  padding-top: 60px;
+  display: grid;
+  height: calc(100vh - 60px);
+  grid-template-rows: 1fr 30px;
+}
+
+
+.b {
+  width: 98%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 4%;
+  background-color: $white-color;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.footer {
+  background-color: #212121;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
