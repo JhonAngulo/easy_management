@@ -8,16 +8,12 @@ const Home = ({ children }) => {
     <>
       <Header />
       <div className='main-layout'>
-        <div className='b elevation-4'></div>
+        <div className='main'>{children}</div>
         <footer className='footer'>
           <p>
             {`${fecha.getFullYear()} Copyright © - Todos los derechos reservados.`}
           </p>
         </footer>
-        {/* <Header />
-      <main>
-        {children}
-      </main> */}
       </div>
     </>
   )

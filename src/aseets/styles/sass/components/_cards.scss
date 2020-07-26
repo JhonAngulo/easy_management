@@ -1,0 +1,14 @@
+.card {
+  background-color: $white-color;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  
+  &__title {
+    padding: 10px;
+  }
+
+  input {
+    margin-right: 0;
+  }
+}

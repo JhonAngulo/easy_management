@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 const Header = () => {
   return (
     <header className='header elevation-1'>
-      <span className='header__logo'>Outsourcing</span>
+      <span className='header__logo'>Outsourcing s.a.s</span>
       <nav className='header__nav'>
         <ul className='header__items'>
           <li className='header__item'>
@@ -19,7 +19,7 @@ const Header = () => {
           </li>
           <li className='header__item'>
             <NavLink activeClassName="selected" className='header__link' to='facturacion'>
-              Facturacion
+              Facturación
             </NavLink>
           </li>
           <li className='header__item'>

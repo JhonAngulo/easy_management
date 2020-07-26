@@ -16,6 +16,16 @@
 // Colors
 
 // components
-@import 'components/header'
+@import 'components/header';
+
+// tables
+@import 'components/tables';
+
+// cards
+@import 'components/cards';
 
 
+.search {
+  display: inline-block;
+  border: none;
+}
